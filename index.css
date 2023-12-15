@@ -1,0 +1,23 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: #121826;
+    background-image: radial-gradient(#121826 1px,transparent 0),radial-gradient(#121826 1px,transparent 0);
+}
+.sect1{
+    background-image: url(images/bg-image-random-quote.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
